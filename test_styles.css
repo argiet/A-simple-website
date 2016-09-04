@@ -1,0 +1,208 @@
+header, nav, section, article, aside, footer
+{
+	margin: 2px;
+}
+
+body
+{
+	background-image: url('img/No23.jpg');
+	background-attachment: fixed;
+	font-family: Georgia, serif;
+}
+
+td
+{
+	font-family: Georgia, serif;
+	font-size: 15pt;
+	color: #311443;
+	background: rgba(220, 220, 220, 0.75);
+	text-align: center;
+	border: 3px dotted #6B9761;
+	vertical-align: middle;
+	border-collapse: collapse;
+}
+
+h2
+{
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #100042;
+}
+
+nav h1
+{
+	font-family: Georgia, serif;
+	font-size: 25px;
+	font-style: italic;
+	color: #19084D;
+}
+
+section h1
+{
+	font-size: 20px;
+	font-style: italic;
+	background: rgba(190, 220, 220, 0.85);
+	padding: 20px;
+	margin: auto;
+	color: #100042;
+}
+
+div#wrapper
+{
+	width: 1160px;
+	margin: auto;
+	float: none;
+}
+
+header
+{
+	font-size: 70px;
+	font-family: Georgia, serif;
+
+	text-align: center;
+	min-height: 50px;
+	margin-left: 45px;
+	color: #100042;
+}
+
+nav
+{
+	width: 150px;
+	float: left; 
+	min-height: 200px;
+	margin: auto;	
+}
+
+div#wrapper > section
+{
+	width: 582px;
+	float: left;
+	min-height: 300px;
+}
+
+footer
+{
+	font-style: bold;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	clear: left;
+	color: #100042;
+}
+
+section
+{
+	margin-left: 160px;
+}
+
+section > header
+{
+	font-size: 33px;
+	text-align: center;
+	min-height: 10px;
+	margin-top: 110px;
+	margin-bottom: 90px;
+	margin-left: 5px;
+	padding: 20px;
+	color: #19084D;
+}
+
+section > p, ul
+{
+	font-size: 18px;
+	text-align: justify;
+	background: rgba(190, 220, 220, 0.85);
+	padding: 20px;
+	margin: auto;
+	list-style-type: disk;
+	color: #19084D;
+}
+
+li
+{
+	margin-bottom: 10px;
+}
+
+nav ul
+{
+	background: rgba(220, 220, 220, 0);
+}
+
+ul.ver2
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.ver2 a
+{
+	display: block;
+	background: rgba(220, 220, 220, 0.65);
+	width: 100px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	text-align: center;
+	color: #19084D;
+	font-size: 22px;
+}
+
+ul.ver2 a.current
+{
+	background-color: #F67878;
+	pointer-events: none;
+	cursor: default;
+}
+
+ul.ver2 a:hover
+{
+	background: rgba(150, 220, 220, 0.5);
+}
+
+ul.fancy a
+{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 2px -2px 5px #1043A4;
+}
+
+p.sec2
+{
+	text-align: left;
+	background: rgba(220, 220, 220, 0);
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.toleft
+{
+	float: none;
+	margin-left: 65px;
+}
+
+a
+{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: lightred;
+}
+
+
+
+
+
+
+
+
+
+
